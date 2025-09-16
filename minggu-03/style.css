@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f9;
+    text-align: center;
+    padding: 30px;
+  }
+  h2 {
+    color: #333;
+  }
+  input, button {
+    padding: 8px 12px;
+    margin: 5px;
+  }
+  button {
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+  }
+  #daftarAntrian {
+    margin-top: 20px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    background: #fff;
+    min-height: 50px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .btn-masuk {
+    background: #4CAF50;
+    color: white;
+  }
+  .btn-panggil {
+    background: #f44336;
+    color: white;
+  }
+  .antrian-item {
+    padding: 5px;
+    border-bottom: 1px solid #ddd;
+  }
+  #sedangDilayani {
+    font-size: 20px;
+    font-weight: bold;
+    color: #2c3e50;
+    margin-top: 10px;
+  }
+  
