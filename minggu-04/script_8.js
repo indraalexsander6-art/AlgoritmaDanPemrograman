@@ -7,10 +7,8 @@ function cariTigaTerbesar() {
         return;
     }
 
-    // Inisialisasi 3 nilai terbesar
     let max1 = -Infinity, max2 = -Infinity, max3 = -Infinity;
 
-    // Linear Search untuk 3 angka terbesar
     for (let i = 0; i < arr.length; i++) {
         let nilai = arr[i];
         if (nilai > max1) {
