@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sistem Pencarian Produk Supermarket</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h2>🛒 Sistem Pencarian Produk Supermarket</h2>
+    <div class="search-box">
+      <input type="number" id="inputBarcode" placeholder="Masukkan barcode">
+      <button onclick="cariProduk()">Cari Produk</button>
+    </div>
+
+    <div id="hasil" class="hasil-produk"></div>
+
+    <div class="hasil-wrapper">
+      <div class="hasil-card">
+        <h3>Linear Search</h3>
+        <div id="linearLangkah" class="langkah"></div>
+      </div>
+      <div class="hasil-card">
+        <h3>Binary Search</h3>
+        <div id="binaryLangkah" class="langkah"></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="data.js"></script>
+  <script src="script_9.js"></script>
+</body>
+</html>
